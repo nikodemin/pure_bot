@@ -1,0 +1,12 @@
+[package]
+name = "pure_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thirtyfour = "0.32.0-rc.9"
+teloxide = { version = "0.13", features = ["macros"] }
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+pretty_env_logger = "0.5"
+log = "0.4"
+config = "0.14.0"
